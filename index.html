@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Landing Page DNC</title>
+</head>
+<body>
+  <section class="header-wrapper">
+    <div class="first-top">
+      <div class="logo">
+        <a href="https://www.escoladnc.com.br" target="_blank" rel="noopener noreferrer">
+          <img src="./images/logoDNC.svg" alt="DNC logo">
+        </a>
+      </div>
+      <h1>Dê os primeiros passos da sua carreira em Tecnologia</h1>
+      <p>Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC School e aprenda os principais fundamentos para construir experiências efetivas.</p>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><img src="./images/icone1.svg" alt="um certificado">Certificado de conclusão</li>
+        <li><img src="./images/icone2.svg" alt="um relogio">4 horas de conteúdo</li>
+        <li><img src="./images/icone3.svg" alt="uma filmadora">Aulas online gravadas</li>
+      </ul>
+    </div>
+  </section>
+  <section class="main-wrapper">
+    <div class="screan">
+      <div class="lady">
+        <iframe class="videoPlay" width="1309" height="480" src="https://www.youtube.com/embed/DdUImDg38ng" title="Aluno DNC: Bem-vindo a Plataforma Jumpy | Escola DNC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="text-wrapper">
+          <h2>Aprenda com especialistas e comece seu primeiro projeto</h2>
+        <p>Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos.
+        </br>
+        </br>
+        Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</p>
+      </div>
+    </div>
+    <div id="gradiente" class="testimony">
+      <h3>Mais de 500 alunos já iniciaram seus estudos</h3>
+      <div class="testimony-wrapper">
+          <img id="seta-Lefth" class="seta" onclick="rolagemLefth()" src="./images/setaLefth.svg" alt="Uma seta para esquerda">
+          <div id="person1" class="person">
+            <div class="imgPerson">
+              <img src="./images/person1.svg" alt="Imagem de uma pessoa">
+            </div>
+            <p>“O curso da DNC School foi o ponto de partida  da minha transição de carreira. Hoje já consegui minha primeira vaga na área!”
+            </br>
+            </br>
+              <span>Bruna, desenvolvedora Front-End</span></p>
+          </div>
+          <div id="person2" class="person">
+            <div class="imgPerson">
+              <img src="./images/person2.svg" alt="Imagem de uma pessoa">
+            </div>
+            <p>“Gostei muito da metodologia e da plataforma da Escola DNC. Os materiais são todos muito bons”
+            </br>
+            </br>
+              <span>Leonardo, desenvolvedor Back-End</span></p>
+          </div>
+          <div id="person3" class="person">
+            <div class="imgPerson">
+              <img src="./images/person3.svg" alt="Imagem de uma pessoa">
+            </div>
+            <p>“O curso da foi a mudança que eu precisava para alcançar meus objetivos profissionais”
+            </br>
+            </br>
+              <span>Samantha, desenvolvedora Front-End</span></p>
+          </div>
+          <img id="seta-Right" class="seta" onclick="rolagemRight()" src="./images/setaRight.svg" alt="Uma seta para direita">
+      </div>
+      <script src="script.js" ></script>
+    </div>
+  </section>
+  <section class="footer-wrapper">
+    <fieldset>
+      <h4>Comece agora mesmo e dê o próximo passo da sua carreira</h4>
+      <form action="https://api.sheetmonkey.io/form/uvJmqsDspDyzNt7nqYe2Pb" method="POST" >
+        <div class="input-wrapper">
+          <input type="name" placeholder="Nome" name="Name" required />
+        </div>
+        <div class="input-wrapper">
+          <input type="email" placeholder="E-mail" name="Email" required />
+        </div>
+        <div class="input-wrapper">
+          <input type="tel" placeholder="Telefone" name="Phone" required />
+        </div>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit" >
+          <a href="https://www.escoladnc.com.br/wp-content/uploads/2022/09/PD-Ementa-Formacao-em-Tecnologia-2022_compressed.pdf" target="_blank" rel="noopener noreferrer">Receba acesso grátis</a>
+          </button>
+      </form>
+    </fieldset>
+  </section>
+</body>
+</html>
