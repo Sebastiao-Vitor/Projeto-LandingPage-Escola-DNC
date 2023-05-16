@@ -9,7 +9,7 @@
 
 Projeto construido atraves do Layout criado em aula.
 
- [🔗 Clique aqui para acessar]()
+ [🔗 Clique aqui para acessar](https://sebastiao-vitor.github.io/Projeto-LandingPage-Escola-DNC/)
 
 ## 🧰🛠️ Tecnologias
 
