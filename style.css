@@ -273,6 +273,12 @@ img {
   grid-auto-flow: row;
   display: grid;
   justify-items: center;
+  align-items: center;
+}
+
+.footer-wrapper fieldset form {
+  display: grid;
+  justify-items: center;
 }
 
 .footer-wrapper fieldset h4 {
